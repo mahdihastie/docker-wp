@@ -29,10 +29,10 @@ finally create an uploads.ini file in the folder & copy the code from the templa
 when all this is done just run the docker compose command to kick off the build and then connect to the host; it must be run from the directory so it can see the docker-compose.yaml
 
 *To run docker compose*
-~ docker-compose up -d
+  ~ docker-compose up -d
 
 *To connect to the wordpress docker instance front end*
-http://[IP of server]:[port]/
+  - http://[IP of server]:[port]/
 
 *To connect to the wordpress docker instance back end*
-http://[IP of server]:[port]/wp-admin
+  - http://[IP of server]:[port]/wp-admin
