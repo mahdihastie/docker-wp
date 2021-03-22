@@ -5,13 +5,19 @@ To start with setup the directory in which we’ll build our WordPress theme. Cr
 
 *To create a directory*
   - mkdir [name of site]
+  - mkdir docker-wp-demo-site
 
 Open your code editor, create a blank file named docker-compose.yml and save it in the directory you created above. This is the file Docker will use to set up WordPress and the MySQL database.
 
-Open Terminal & navigate to the directory above.  Once there, type ls and you should see your docker-compose.yml file; copy the code from the template here & make changes to the port & name if you are running multiple docker wordpress instances.
+Open Terminal & navigate to the directory above.  Once there, type ls and you should see your docker-compose.yml file; open it in your editor of choice (I use nano) and copy the code from the template here & make changes to the port & name if you are running multiple docker wordpress instances.
 
 *To create a file*
   - touch [name of file].[extention of file if required]
+  - touch docker-compose.yaml
+
+*To edit a file*
+  - [editor of choice] [name of file].[extention of file if required]
+  - nano docker-compose.yaml
 
 If you want to change the port that the WordPress install will use, just change the 8000 value in ports to whatever value you would like. If you want it to run on port 9210 you would make the change like so:
 
