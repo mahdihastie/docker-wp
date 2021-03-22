@@ -1,9 +1,7 @@
 # doocker-wp
 Wp in docker
 
-docker-compose.yml
-
-To start with setup the directory in which we’ll build our WordPress theme. Create a new folder wherever you want and name it whatever you want. I named mine docker-wordpress-theme-setup to match the GitHub repository. We’ll set up our entire WordPress ecosystem in this directory.
+To start with setup the directory in which we’ll build our WordPress theme. Create a new folder wherever you want, the name of the folder will the name of the docekr containers this script create. We’ll set up our entire WordPress ecosystem in this directory, so name sure the name is unique if working with multiple wordpress containers.
 
 Open your code editor, create a blank file named docker-compose.yml and save it in the directory you created above. This is the file Docker will use to set up WordPress and the MySQL database.
 
